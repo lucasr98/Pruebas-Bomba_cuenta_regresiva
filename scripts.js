@@ -14,7 +14,7 @@ function cuentaRegresiva(){
 			else if (i <= 9) {
 				numero.innerHTML = `0${i}`;
 				if (i <= 3) {
-					numero.style.color = "orange";
+					numero.style.color = "#E03143";
 				}
 			}
 			i = i - 1;
